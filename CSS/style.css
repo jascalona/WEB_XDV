@@ -209,5 +209,9 @@ nav ul li a {
 /*FOOTER*/
 footer{
     font-size: 11px;
+}
 
+footer img{
+    width: 100px;
+    margin: 20px;
 }
