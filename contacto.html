@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/x.png" />
+    <title>XDV</title>
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style.ii.css" />
+    <link rel="stylesheet" href="./CSS/lib/framework.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--STYLE-->
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./image/xdv.png" alt="" />
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <button
+              style="border: none; background: none"
+              class="dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Recursos
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">E-elearning</a></li>
+              <li><a class="dropdown-item" href="#">Virtual Assistance</a></li>
+              <li><a class="dropdown-item" href="#">Support KIP</a></li>
+              <li><a class="dropdown-item" href="#">PhoneBook</a></li>
+            </ul>
+          </li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="log_in">
+        <a href=""><i class="bx bxs-user-plus" style="color: #7d7d7d"></i></a>
+      </div>
+    </header>
+
+    <!--ABOUT_CONTACTO-->
+    <div class="container-public-contacto"></div>
+    <div class="about-contacto">
+      <div class="content">
+        <small>XDV | Expertos en Gestión Documental</small>
+        <h3>¿En qué consisten los Servicios remotos de Xerox®?</h3>
+
+        <p>
+          Los Servicios remotos de Xerox están formados por la infraestructura y
+          el mecanismo mediante el cual los dispositivos de los clientes se
+          comunican con Xerox, proporcionando acceso a un paquete de funciones
+          que permiten ahorrar tiempo. Cuando se inscriba, su máquina enviará
+          lecturas de contadores, niveles de suministro e información de
+          diagnóstico. La facturación mensual se realizará de forma automática y
+          el tóner se podrá reponer sin necesidad de realizar ningún pedido.
+          También puede optar por recibir actualizaciones automáticas de
+          software y parches de seguridad. Si su impresora tiene un problema,
+          nuestros expertos en soporte digital utilizarán los datos de
+          diagnóstico enviados por su máquina para solucionar el problema
+          rápidamente.
+        </p>
+        <br />
+        <h3>¿Cómo conectar con servicios remotos?</h3>
+        <p>
+          La conectividad es necesaria para reunir los datos necesarios para
+          administrar servicios como las lecturas de contador automáticas (AMR)
+          y la sustitución de consumibles automáticos (ASR), al igual que la
+          asistencia de diagnósticos. Hay dos métodos de conexión disponibles,
+          Xerox Device Agent y Device Direct ¿Desea obtener más información?
+          dejarnos un comentario formulario y con gusto te asesoramos.
+        </p>
+      </div>
+    </div>
+    <!--ABOUT_CONTACTO-->
+
+    <!-- Contact Start -->
+    <section class="formulario-contacto">
+      <div class="container-fluid pt-5">
+        <div class="container">
+          <div class="section-title"></div>
+          <div class="row px-3 pb-2">
+            <div class="col-sm-4 text-center mb-3">
+              <i class="bx bx-current-location" style="color: #8e0d0d"></i>
+              <h4 class="font-weight-bold">Ubicación</h4>
+              <p>Avenida Ávila, Av. Ávila, Caracas 1060, Miranda, Venezuela</p>
+            </div>
+            <div class="col-sm-4 text-center mb-3">
+              <i class="bx bxs-phone" style="color: #8e0d0d"></i>
+              <h4 class="font-weight-bold">Phone</h4>
+              <p>+58 05009376934</p>
+            </div>
+            <div class="col-sm-4 text-center mb-3">
+              <i class="bx bx-envelope" style="color: #8e0d0d"></i>
+              <h4 class="font-weight-bold">Email</h4>
+              <p>cac@grupoxven.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 pb-5">
+              <iframe
+                style="width: 100%; height: 443px"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d351.1574294685787!2d-66.85000489398739!3d10.490331767854265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a585481e1d44d%3A0xa8bd64e39f3a5b6d!2s208-206%20Av.%20Libertador%2C%20Caracas%201060%2C%20Distrito%20Capital%2C%20Venezuela!5e1!3m2!1sen!2sbd!4v1696862259664!5m2!1sen!2sbd"
+                width="800"
+                height="600"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="col-md-6 pb-5">
+              <div class="contact-form">
+                <div id="success"></div>
+                <form
+                  name="sentMessage"
+                  id="contactForm"
+                  novalidate="novalidate"
+                >
+                  <div class="control-group">
+                    <input
+                      type="text"
+                      class="form-control bg-transparent p-4"
+                      id="name"
+                      placeholder="¿Quién nos Escribe? Ingrese su Nombre"
+                      required="required"
+                      data-validation-required-message="Please enter your name"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="control-group">
+                    <input
+                      type="email"
+                      class="form-control bg-transparent p-4"
+                      id="email"
+                      placeholder="Email"
+                      required="required"
+                      data-validation-required-message="Email"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="control-group"></div>
+                  <div class="control-group">
+                    <textarea
+                      class="form-control bg-transparent py-3 px-4"
+                      rows="5"
+                      id="message"
+                      placeholder="Comentanos tus dudas o requerimiento..."
+                      required="required"
+                      data-validation-required-message="Please enter your message"
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div>
+                    <button
+                      class="btn btn-dark font-weight-bold py-3 px-5"
+                      type="submit"
+                      id="sendMessageButton"
+                    >
+                      Enviar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div
+        class="container-fluid bg-dark text-white-50 py-1 px-sm-3 px-lg-5"
+        style="margin-top: 90px"
+      >
+        <div class="row pt-5">
+          <div class="col-lg-6 col-md-6 mb-5">
+            <h6
+              class="text-white text-uppercase mb-4"
+              style="letter-spacing: 5px"
+            >
+              Acceso Directo
+            </h6>
+            <div class="d-flex flex-column justify-content-start">
+              <a class="text-white-50 mb-2" href="./panel.php"
+                ><i class="fa fa-angle-right mr-2"></i>E-elearning</a
+              >
+              <a class="text-white-50 mb-2" href="./control_asistencia.php"
+                ><i class="fa fa-angle-right mr-2"></i>Virtual Assistance</a
+              >
+              <a class="text-white-50 mb-2" href="./control_asistencia.php"
+                ><i class="fa fa-angle-right mr-2"></i>PhoneBook</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-5"></div>
+
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5
+              class="text-white text-uppercase mb-4"
+              style="letter-spacing: 5px"
+            >
+              Contacto
+            </h5>
+            <p>
+              <i class="fa fa-map-marker-alt mr-2"></i>Av. Ávila, Caracas 1060,
+              Miranda, Venezuela
+            </p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+58 05009376934</p>
+            <p><i class="fa fa-envelope mr-2"></i>cac@grupoxven.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+        style="border-color: rgba(256, 256, 256, 0.1) !important"
+      >
+        <div class="row">
+          <div class="derechos-reservados">
+            <p style="text-align: center" class="m-0 text-white-50">
+              2010 - 2024 &copy; Xerox de Venezuela. Todos los derechos
+              reservados. XDV®
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!--SCRIPT-->
+    <script src="./JS/framework.js"></script>
+    <!--SCRIPT-->
+  </body>
+</html>

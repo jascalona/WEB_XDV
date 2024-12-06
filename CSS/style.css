@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    padding: 5px 10%;
+    box-shadow: 0 1px 10px rgba(32, 31, 31, 0.195);
+}
+
+.logo img {
+    width: 90px;
+}
+
+.log_in {
+    font-size: 25px;
+    border: solid 1px grey;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+
+
+.container-public {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-image: url(/image/header2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-public-contacto {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-image: url(/image/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*about-primary*/
+.about-primary {
+    max-width: 80%;
+    margin: 3% auto;
+}
+
+/*baner_we-make*/
+.about-we-work {
+    background: rgb(184, 16, 16);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-we-work h3 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.about-we-work p {
+    font-size: 20px;
+}
+
+@media (max-width: 788px) {
+    .about-we-work h3 {
+        font-size: 30px;
+    }
+
+    .about-we-work p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 490px) {
+    .about-we-work h3 {
+        font-size: 20px;
+    }
+
+    .about-we-work p {
+        font-size: 12px;
+    }
+}
+
+
+
+/*GALLERY SERVICIOS*/
+.soluciones-oficina h1 {
+    margin-top: 7%;
+    text-align: center;
+}
+
+ .soluciones-oficina{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-solution {
+    display: grid;
+    padding: 8%;
+    gap: 4%;
+    text-align: center;
+}
+
+.gallery-solution small {
+    font-size: 12px;
+}
+
+.card-solution{
+    position: relative;
+    outline: none;
+    width: 250px;
+    height: 320px;
+    box-shadow: 0 1px 10px rgba(32, 31, 31, 0.195);
+    transition: transform .5s;
+}
+
+.card-solution:hover{
+    transform: scale(1.1);
+}
+
+.content h6 {
+    font-size: 15px;
+}
+
+.card-solution .container-public img {
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+    min-height: 100px;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 992px) {
+    .gallery-solution {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .gallery-solution{
+        margin-bottom: 70%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery-solution{
+        grid-template-columns: 1fr;
+        gap: 1%;
+    }
+}
+
+/*CONTACTOS*/
+.about-contacto{
+    max-width: 58%;
+    margin: 8% auto;
+    line-height: 1.9;
+}
+
+.about-contacto small{
+    color: rgb(184, 16, 16);
+}
+
+.about-contacto p{
+    font-size: 14px;
+}
+
+/*Formulario contacto*/
+.formulario-contacto{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.formulario-contacto i{
+    font-size: 35px;
+}
+
+/*FOOTER*/
+footer{
+    font-size: 11px;
+
+}
