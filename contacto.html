@@ -18,32 +18,37 @@
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="./image/xdv.png" alt="" />
-      </div>
 
       <nav>
-        <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li class="nav-item dropdown">
-            <button
-              style="border: none; background: none"
-              class="dropdown-toggle"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Recursos
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="./Partner">E-elearning</a></li>
-                <li><a class="dropdown-item" href="./monitoring">Virtual Assistance</a></li>
-                <li><a class="dropdown-item" href="./support_kip">Support KIP</a></li>
-                <li><a class="dropdown-item" href="./phone_list">PhoneBook</a></li>
-              </ul>
-          </li>
-          <li><a href="./contacto.html">Contacto</a></li>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='./index.html'><img src='./image/xdv.png'/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="">Inicio</a></li>
+
+                <li class="nav-item dropdown">
+                  <button
+                    style="border: none; background: none; color: gray;"
+                    class="dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Recursos
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="./Partner">E-elearning</a></li>
+                      <li><a class="dropdown-item" href="./monitoring">Virtual Assistance</a></li>
+                      <li><a class="dropdown-item" href="./support_kip">Support KIP</a></li>
+                      <li><a class="dropdown-item" href="./phone_list">PhoneBook</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="./contacto.html">Contacto</a></li>
+                <label for="check" class="close-menu"><i class='bx bx-x'></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class='bx bx-menu' style='color:#514f4f' ></i></label>
         </ul>
-      </nav>
+    </nav>
 
       <!--
       <div class="log_in">
