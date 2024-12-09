@@ -101,19 +101,53 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container-public::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 11, 11, 0.632);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-public img{
+    max-width: 500px;
+    position: absolute;
 }
 
 .container-public-contacto {
     width: 100%;
-    height: 550px;
+    height: 400px;
     margin-top: -18px;
     position: relative;
     background-image: url(/image/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container-public-contacto::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 11, 11, 0.632);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-public-contacto img{
+    max-width: 500px;
+    position: absolute;
 }
 
 /*about-primary*/
@@ -174,8 +208,8 @@
 }
 
  .soluciones-oficina{
-    width: 80%;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: 50px auto;
 }
 
 .gallery-solution {
@@ -226,6 +260,10 @@
         margin-bottom: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .container-public-contacto img, .container-public img{
+        width: 300px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -233,6 +271,10 @@
         grid-template-columns: 1fr;
         gap: 1%;
     }
+}
+
+@media (max-width: 0px) {
+    
 }
 
 /*CONTACTOS*/
