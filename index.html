@@ -10,6 +10,7 @@
     <!--STYLE-->
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/style.ii.css" />
+    <link rel="stylesheet" href="./CSS/lib/AOS_animation.css">
     <link rel="stylesheet" href="./CSS/lib/framework.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -68,14 +69,14 @@
       <div class="container-fluid py-5">
         <div class="container py-5">
           <div class="row">
-            <div class="col-lg-5">
-              <img
+            <div class="col-lg-5" data-aos="fade-right"  data-aos-duration="1000">
+              <img 
                 class="img-fluid rounded"
                 src="./image/about_img.jpg"
                 alt=""
               />
             </div>
-            <div class="col-lg-7 mt-4 mt-lg-0">
+            <div class="col-lg-7 mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="1000">
               <h6 class="text-uppercase">NOSOTROS</h6>
               <h1 class="mb-4">Bienvenido(a) al Soporte al cliente de XDV</h1>
               <p class="text">
@@ -97,7 +98,7 @@
                 solo es posible si cuenta con el equipo idóneo y el soporte
                 necesario de Xerox.
               </p>
-              <a href="./contacto.html" class="btn btn-dark mt-2"
+              <a data-aos="fade-up" data-aos-duration="1000" href="./contacto.html" class="btn btn-dark mt-2"
                 >Contactanos</a
               >
             </div>
@@ -120,10 +121,11 @@
     <link rel="stylesheet" href="./CSS/tes.css" />
 
     <section class="soluciones-oficina">
-      <h1>Soluciones de Oficina para Impresión y flujos de trabajos</h1>
+      <h1 data-aos="zoom-in-up" data-aos-duration="1000">Soluciones de Oficina para Impresión y flujos de trabajos</h1>
 
       <div class="gallery-solution">
-        <article class="card-solution">
+        
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/b400_1.PNG" alt="" />
             <div class="content">
@@ -133,7 +135,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/b405_1.PNG" alt="" />
             <div class="content">
@@ -143,7 +145,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/alta-produccion.jpg" alt="" />
             <div class="content">
@@ -153,7 +155,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/accesosrios.jfif" alt="" />
             <div class="content">
@@ -163,7 +165,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/toner_suministros.jfif" alt="" />
             <div class="content">
@@ -173,7 +175,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/piezas.jfif" alt="" />
             <div class="content">
@@ -183,7 +185,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/v280.png" alt="" />
             <div class="content">
@@ -193,7 +195,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/accesosrios.jfif" alt="" />
             <div class="content">
@@ -203,7 +205,7 @@
           </div>
         </article>
 
-        <article class="card-solution">
+        <article data-aos="zoom-in" data-aos-duration="1000" class="card-solution">
           <div class="item-solution">
             <img src="./image/equipos/scanner.webp" alt="" />
             <div class="content">
@@ -216,7 +218,7 @@
     </section>
 
     <!-- Footer Start -->
-    <footer>
+    <footer >
       <div
         class="container-fluid bg-dark text-white-50 py-3 px-sm- px-lg-5"
         style="margin-top: 90px"
@@ -324,6 +326,10 @@
 
     <!--SCRIPT-->
     <script src="./JS/framework.js"></script>
+    <script src="./JS/AOS_animation.js" ></script>
+    <script>
+      AOS.init();
+    </script>
     <!--SCRIPT-->
   </body>
 </html>
